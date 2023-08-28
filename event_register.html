@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACUNETIX | Music Festival</title>
+	
+    <link rel="stylesheet" href="/css/event_register.css">	
+	<link href="css/responsive.css" rel="stylesheet">
+</head>
+<body bgcolor=navyblue>
+    <center>
+
+    <form action="">
+	     
+
+         
+        <h1>Payment</h1>
+        <label for="name">Name:</label><br>
+        <input class='box1' type="text" name='name' id="name" placeholder="*Name" required><br>
+        
+        <label for="email">Email:</label><br>
+        <input class='box1' type="email" name='email' id="email" placeholder="*Email" required><br>
+        
+        <label for="cardno">Card No:</label><br>
+        <input class='box1' type="text" name='cardno' id="cardno" placeholder="*1234 5678 9876" required><br>
+      
+        <div class="div1">
+            <label for="cardtype">Card Type:</label><br>
+            <select class="box2" name="card" id="card" required>
+                <option>**Select Card**</option>
+                <option value="rupey">Pupey</option>
+                <option value="mastercard">Master Card</option>
+                <option value="visa">VISA</option>
+            </select><br>
+            
+            <label for="amount">Enter Amount:</label><br>
+            <input class="box2" type="text" name='amount' id="amount" placeholder="*amount" required><br>
+        </div>        
+       
+        <div class="div1">
+            <label for="cardexp">Card Expiry Month:</label><br>
+            <input class="box2" type="month" name='cardexp' id="cardexp" placeholder="*MM" required><br>
+            
+            <label for="cardexpy">Card Expiry Year:</label><br>
+            <input class="box2" type="year" name='cardexpy' id="cardexpy" placeholder="*YY" required><br>
+        </div>        
+        
+        <div class="div1">
+            <label for="cvv">CVV:</label><br>
+            <input class="box2" type="password" name='cvv' id="cvv" placeholder="*cvv" required><br>
+            
+            <label for="password">Password:</label><br>
+            <input class="box2" type="password" name='password' id="password" placeholder="*password" required><br>
+        </div><br> 
+ 
+        
+        <!-- <a href="./paymentSUCESS.html" class="btn">Pay Now</a>
+        <a href="./index.html" class="btn">Cancel</a> -->
+         <button  class="btn" type="submit">Pay Now</button>
+        <button  class="btn"type="reset">Cancel</button>
+        <br><br><br>
+        <a href="./index.html">Back</a>
+         </center>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/slider/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form{
+    background-color: white;
+    width: 600px;
+    margin: 100px auto 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 #30475e, 0 4px 8px 0 #30475e;
+    color: green;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+::placeholder{
+    color: rgb(15, 15, 15);
+    font-size: 50px;
+}
+
+h1{
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(53, 247, 53);
+}
+
+.box1{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin: 10px 0 15px 0;
+    background-color: #badbfc;
+}
+
+.div1{
+    display: inline-block;
+    padding: 13px;
+    margin: auto;
+}
+
+
+.box2{
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin: 5px 0 5px 0;
+    background-color: #badbfc;
+}
+
+.btn{
+    text-decoration: none;
+    text-align: center;
+    width: 70%;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 15px;
+    background-color: #badbfc;
+    font-size: 20px;
+    color: green ;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    }
+
+.btn:hover{
+    background-color: orangered;
+    color: white;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        padding: 20px;
+    }
+    form{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .div1{
+        display: block;
+    }
+    .box2{
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+        margin: 10px;
+    }
+}
